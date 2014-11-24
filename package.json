@@ -1,0 +1,26 @@
+{
+  "name": "react-media-mixin",
+  "version": "1.0.0",
+  "description": "A React mixin to update state in response to media query events.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "events": "^1.0.2"
+  },
+  "devDependencies": {
+    "6to5": "^1.13.11"
+  },
+  "scripts": {
+    "build": "6to5 src -d dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "responsive",
+    "rwd",
+    "media",
+    "mediaQuery",
+    "mixin"
+  ],
+  "author": "Andrew Clark <acdlite@me.com>",
+  "license": "MIT"
+}
