@@ -39,5 +39,9 @@ var MyComponent = React.createClass({
 });
 ```
 
+## Requirements
+
+[Like React](http://facebook.github.io/react/docs/working-with-the-browser.html#browser-support-and-polyfills), react-media-mixin uses `Object.keys`, which isn't supported in IE<9.
+
 ## License
 MIT
