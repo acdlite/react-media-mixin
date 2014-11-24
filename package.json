@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A React mixin to update state in response to media query events.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acdlite/react-media-mixin.git"
+  },
   "dependencies": {
     "events": "^1.0.2"
   },
