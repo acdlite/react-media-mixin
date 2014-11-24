@@ -15,14 +15,14 @@ var MediaMixin = require('react-media-mixin')
 
 // Add some media queries.
 MediaMixin.addMediaQueries({
-  tablet: 'screen and (min-width:768)',
-  desktop: 'screen and (min-width:1024)',
+  tablet: 'screen and (min-width:768px)',
+  desktop: 'screen and (min-width:1024px)',
 });
 
 // Mixin to a component.
 var MyComponent = React.createClass({
   mixins: [MediaMixin],
-  
+
   render() {
     // Use `this.state.media`.
     // State will update whenever a media query matches or unmatches
