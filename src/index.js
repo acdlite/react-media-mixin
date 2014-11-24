@@ -1,6 +1,6 @@
 'use strict';
 
-var EventEmitter = require('events').EventEmitter;
+var {EventEmitter} = require('events');
 
 class Responsive extends EventEmitter {
   constructor(mediaQueries = {}) {
