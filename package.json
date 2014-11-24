@@ -1,6 +1,6 @@
 {
   "name": "react-media-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React mixin to update state in response to media query events.",
   "main": "dist/index.js",
   "repository": {
