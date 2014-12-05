@@ -10,7 +10,7 @@ class Responsive extends EventEmitter {
 
     this.mediaQueryLists = {};
 
-    if (Responsive.supportsMatchMedia) {
+    if (Responsive.supportsMatchMedia()) {
       this.addMediaQueries(mediaQueries);
     }
   }
