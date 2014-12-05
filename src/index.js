@@ -68,7 +68,7 @@ class Responsive extends EventEmitter {
   }
 
   static supportsMatchMedia() {
-    return window && typeof window.matchMedia === 'function';
+    return typeof window !== 'undefined' && typeof window.matchMedia === 'function';
   }
 }
 
