@@ -74,6 +74,9 @@ class Responsive extends EventEmitter {
 
 var responsive = new Responsive();
 
+// Set to unlimited
+responsive.setMaxListeners(0);
+
 var MediaMixin = {
   getInitialState() {
     return {
